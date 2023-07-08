@@ -88,6 +88,11 @@ nav ul li a {
   margin-top: 5px;
   margin-bottom: 20px;
 }
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About section */
 .about {
   background-color: #fff8f3;
@@ -99,4 +104,9 @@ nav ul li a {
   color: #757575;
   text-align: center;
   font: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
