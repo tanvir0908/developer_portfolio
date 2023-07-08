@@ -161,5 +161,21 @@ footer {
   margin-top: 100px;
   background-color: #fff8f3;
   display: flex;
+  gap: 100px;
   gap: 50px;
+}
+footer .type,
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  border: none;
+}
+.footer-column {
+  width: 50%;
+}
+.type2 {
+  width: 100%;
 }
