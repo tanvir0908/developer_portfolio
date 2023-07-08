@@ -1,0 +1,44 @@
+/* Import Font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;700;900&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+/* Shared Style */
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  width: 150px;
+  height: 64px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title {
+  align-items: center;
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.nav-title span {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  align-items: center;
+}
+nav ul li a {
+  color: #474747;
+  text-decoration: none;
+}
