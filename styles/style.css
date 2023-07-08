@@ -5,10 +5,10 @@
 }
 /* Shared Style */
 .btn-primary {
+  color: white;
   border-radius: 5px;
   background: #fd6e0a;
-  width: 150px;
-  height: 64px;
+  padding: 15px 30px;
   border: none;
   font-size: 20px;
   font-weight: 700;
@@ -19,6 +19,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 200px;
 }
 .nav-title {
   align-items: center;
@@ -41,4 +42,17 @@ nav ul li {
 nav ul li a {
   color: #474747;
   text-decoration: none;
+}
+
+/* Header */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 150px;
+}
+.pofile-picture {
+  width: 400px;
 }
