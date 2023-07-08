@@ -1,6 +1,8 @@
 /* Import Font */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;700;900&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif;
 }
 /* Shared Style */
@@ -8,12 +10,17 @@
   color: white;
   border-radius: 5px;
   background: #fd6e0a;
-  padding: 15px 30px;
+  padding: 12px 25px;
   border: none;
   font-size: 20px;
   font-weight: 700;
 }
-
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
 /* Navbar */
 nav {
   display: flex;
@@ -46,13 +53,50 @@ nav ul li a {
 
 /* Header */
 .header {
+  padding-top: 1rem;
+  height: 100vh;
   background-color: #fff8f3;
+  background-repeat: no-repeat;
+  background-image: url("../images/header_bg.png");
+  background-position: 120% 160%;
 }
 .banner {
   display: flex;
   align-items: center;
-  padding: 30px 30px 30px 150px;
+  justify-content: space-between;
+  padding: 30px 30px 0px 150px;
 }
 .pofile-picture {
-  width: 400px;
+  width: 482px;
+}
+.banner-greeting {
+  font-size: 35px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner-content {
+  max-width: 585px;
+}
+.banner-content p {
+  color: #757575;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* About section */
+.about {
+  background-color: #fff8f3;
+  padding: 130px;
+  border-radius: 10px;
+  margin: 130px 0;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font: 18px;
 }
