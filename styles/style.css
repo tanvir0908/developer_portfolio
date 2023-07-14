@@ -5,6 +5,9 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+.hide {
+  display: none;
+}
 /* Shared Style */
 .btn-primary {
   color: white;
